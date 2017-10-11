@@ -26,14 +26,14 @@ var app = express();
 
 
 // 2 使用正则表达式的路由路径：
-    // 匹配任何路径中含有 a 的路径：
-    // app.get(/a/, function(req, res) {
-    //     res.send('/a/');
+    // 匹配任何路径中含有 y 的路径：
+    // app.get(/y/, function(req, res) {
+    //     res.send('/y/');
     // });
 
-    // 匹配 butterfly、dragonfly，不匹配 butterflyman、dragonfly man等
-    // app.get(/.*fly$/, function(req, res) {
-    //     res.send('/.*fly$/');
+    // 匹配 ddhusky、rfvdsky，不匹配 ddhuskydf、rfvdsky rtd等
+    // app.get(/.*sky$/, function(req, res) {
+    //     res.send('/.*sky$/');
     // });
 
 
